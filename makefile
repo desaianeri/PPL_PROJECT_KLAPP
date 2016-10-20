@@ -1,5 +1,5 @@
-dls : dls.c
-	cc -Wall -o dls -g dls.c `pkg-config --cflags --libs gtk+-2.0`
+project : dls.c
+	cc -Wall -o project -g dls.c `pkg-config --cflags --libs gtk+-2.0`
 clean : 
 	rm *.o
 
